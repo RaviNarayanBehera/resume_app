@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class GmailPage extends StatefulWidget {
   const GmailPage({super.key});
@@ -17,7 +15,7 @@ class _GmailPageState extends State<GmailPage> {
         backgroundColor: Colors.black87,
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
             height: 130,
                 child: DrawerHeader(child: Text('Gmail',style: TextStyle(color: Colors.grey,fontSize: 40,),))),
             list_Tile(icon: Icons.all_inbox_outlined, txt: 'All Inboxes'),
