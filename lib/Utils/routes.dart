@@ -8,7 +8,7 @@ import '../Screens/status_bar.dart';
 class AppRoutes{
   static Map<String,Widget Function(BuildContext)> routes = {
     // '/' : (context) => UserInfo(),
-    '/' : (context) => const ImagePicker(),
+    '/' : (context) => const Image_Picker(),
     // '/' : (context) => const LoginPage1(),
     // '/' : (context) => const GmailPage(),
   };

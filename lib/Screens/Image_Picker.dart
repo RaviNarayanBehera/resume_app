@@ -5,14 +5,14 @@ import 'package:image_picker/image_picker.dart';
 
 ImagePicker imagePicker = ImagePicker();
 File? fileImage;
-class ImagePicker extends StatefulWidget {
-  const ImagePicker({super.key});
+class Image_Picker extends StatefulWidget {
+  const Image_Picker({super.key});
 
   @override
-  State<ImagePicker> createState() => _ImagePickerState();
+  State<Image_Picker> createState() => _Image_PickerState();
 }
 
-class _ImagePickerState extends State<ImagePicker> {
+class _Image_PickerState extends State<Image_Picker> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,18 +40,18 @@ class _ImagePickerState extends State<ImagePicker> {
               children: [
                 IconButton(
                   onPressed: () async {
-                    // XFile? xfileimage= await imagePicker.pickImage(source: ImageSource.camera);
+                    XFile? xfileImage= await imagePicker.pickImage(source: ImageSource.camera);
                     setState(() {
-                      // fileImage=File(xfileimage!.path);
+                      fileImage=File(xfileImage!.path);
                     });
 
 
                   }, icon: Icon(Icons.camera_alt_rounded,size: 65,),color: Colors.black,),
                 IconButton(
                   onPressed: ()  async {
-                    // XFile? xfileimage= await imagePicker.pickImage(source: ImageSource.gallery);
+                    XFile? xfileImage= await imagePicker.pickImage(source: ImageSource.gallery);
                     setState(() {
-                      // fileImage=File(xfileimage!.path);
+                      fileImage=File(xfileImage!.path);
                     });
 
                   }, icon: Icon(Icons.photo_rounded,size: 65,),color: Colors.black,),
