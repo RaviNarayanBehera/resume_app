@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:resume_app/Utils/routes.dart';
 
 import 'Screens/status_bar.dart';
-
+import 'dart:io';
 void main() {
   runApp(const ResumeApp());
 }
