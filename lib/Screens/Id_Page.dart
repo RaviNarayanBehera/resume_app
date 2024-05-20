@@ -22,10 +22,10 @@ class _RegistrationState extends State<Registration> {
     GlobalKey<FormState> formkey = GlobalKey();
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.pink.shade50,
         title: const Text(
           'Regstration Form',
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
       ),
@@ -40,14 +40,14 @@ class _RegistrationState extends State<Registration> {
               ),
               Center(
                 child: CircleAvatar(
-                  backgroundColor: Colors.blue,
+                  backgroundColor: Colors.black,
                   radius: 55,
                   backgroundImage:
                   (fileImage != null) ? FileImage(fileImage!) : null,
                   child: (fileImage != null)
                       ? null
                       : Image.asset(
-                      'assets/images/Dp.png'),
+                      'assets/images/login_logo.png'),
                 ),
               ),
               Row(
@@ -64,7 +64,7 @@ class _RegistrationState extends State<Registration> {
                       icon: const Icon(
                         Icons.camera_alt,
                         size: 30,
-                        color: Colors.blue,
+                        color: Colors.black,
                       )),
                   IconButton(
                       onPressed: () async {
@@ -77,7 +77,7 @@ class _RegistrationState extends State<Registration> {
                       icon: const Icon(
                         Icons.image,
                         size: 30,
-                        color: Colors.blue,
+                        color: Colors.black,
                       ))
                 ],
               ),
@@ -104,7 +104,7 @@ class _RegistrationState extends State<Registration> {
                     ),
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: const BorderSide(width: 2, color: Colors.blue)),
+                        borderSide: BorderSide(width: 2, color: Colors.pink.shade50)),
                   ),
                 ),
               ),
@@ -131,7 +131,7 @@ class _RegistrationState extends State<Registration> {
                     ),
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: const BorderSide(width: 2, color: Colors.blue)),
+                        borderSide: BorderSide(width: 2, color: Colors.pink.shade50)),
                   ),
                 ),
               ),
