@@ -47,7 +47,7 @@ class _RegistrationState extends State<Registration> {
                   child: (fileImage != null)
                       ? null
                       : Image.asset(
-                      'assets/images/login_logo.png'),
+                      'assets/images'),
                 ),
               ),
               Row(
@@ -327,17 +327,17 @@ class _RegistrationState extends State<Registration> {
                         BirthDate = txtdate.text;
                         Navigator.of(context).pushNamed('/id');
                       } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: const Text('Enter valid Value!'),
-                            action: SnackBarAction(
-                              label: 'Retry',
-                              onPressed: () {
-                                formkey.currentState!.reset();
-                              },
-                            ),
-                          ),
-                        );
+                        // ScaffoldMessenger.of(context).showSnackBar(
+                        //   SnackBar(
+                        //     content: const Text('Enter valid Value!'),
+                        //     action: SnackBarAction(
+                        //       label: 'Retry',
+                        //       onPressed: () {
+                        //         formkey.currentState!.reset();
+                        //       },
+                        //     ),
+                        //   ),
+                        // );
                       }
                     },
                     child: const Text(

@@ -6,6 +6,7 @@ import 'package:resume_app/Screens/login_page.dart';
 import 'package:resume_app/pdf_&_invoice/invoice.dart';
 import '../Screens/Id_Page.dart';
 import '../Screens/drawer_Page.dart';
+import '../Screens/snackBar.dart';
 import '../Screens/status_bar.dart';
 import '../pdf_&_invoice/pdf.dart';
 
@@ -13,9 +14,11 @@ class AppRoutes{
   static Map<String,Widget Function(BuildContext)> routes = {
     // '/' : (context) => UserInfo(),
     // '/' : (context) => const Image_Picker(),
+    // '/' : (context) => const Registration(),
+    '/' : (context) => const Snack_bar(),
     // '/' : (context) => const DynamicTextField(),
-    '/' : (context) => const InvoiceScreen(),
-    '/pdf' : (context) => const PdfScreen(),
+    // '/' : (context) => const InvoiceScreen(),
+    // '/pdf' : (context) => const PdfScreen(),
     // '/' : (context) => const LoginPage1(),
     // '/' : (context) => const GmailPage(),
   };
