@@ -251,3 +251,16 @@ Syntax :
         )
       ),
 ```
+
+<h1 align = "center">
+ SnackBar
+</h1>
+
+<h1 align = "center">
+  <img src="https://github.com/RaviNarayanBehera/resume_app/assets/148530184/9cf7f353-ef52-4d7a-bf86-7013d734603c" height=65%  width=22%>
+</h1>
+
+#
+<div align = "center">
+<video src="https://github.com/RaviNarayanBehera/resume_app/assets/148530184/09f6efcf-4631-4440-ba46-4106858622c7">
+</div>
