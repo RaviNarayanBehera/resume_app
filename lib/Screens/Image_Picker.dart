@@ -21,16 +21,21 @@ class _Image_PickerState extends State<Image_Picker> {
         children: [
           Padding(
             padding: const EdgeInsets.all(15.0),
-            child: Container(
-              height: 400,
-              width: 450,
-              decoration: BoxDecoration(
-                color: Colors.black,
-                image: (fileImage!=null)?DecorationImage(
-                    fit:BoxFit.cover,
-                    image: FileImage(fileImage!)):null,
-              ),
-
+            // child: Container(
+            //   height: 400,
+            //   width: 450,
+            //   decoration: BoxDecoration(
+            //     color: Colors.black,
+            //     image: (fileImage!=null)?DecorationImage(
+            //         fit:BoxFit.cover,
+            //         image: FileImage(fileImage!)):null,
+            //   ),
+            //
+            // ),
+            child: CircleAvatar(
+              radius: 50,
+              backgroundColor: Colors.lightBlue.shade300,
+              backgroundImage: (FileImage!=null)?FileImage(fileImage!):null,
             ),
           ),
           Padding(
