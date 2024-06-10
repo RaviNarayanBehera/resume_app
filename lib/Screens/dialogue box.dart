@@ -10,7 +10,7 @@ class UserInfoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'User Info',
+      title: 'User Information',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -40,7 +40,8 @@ class UserInfoScreenState extends State<UserInfoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('User Info'),
+        title: const Text('Information',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w500),),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
