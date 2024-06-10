@@ -264,3 +264,17 @@ Syntax :
 <div align = "center">
 <video src="https://github.com/RaviNarayanBehera/resume_app/assets/148530184/09f6efcf-4631-4440-ba46-4106858622c7">
 </div>
+
+<h1 align = "center">
+ Dialogue Box
+</h1>
+
+<h1 align = "center">
+  <img src="https://github.com/RaviNarayanBehera/resume_app/assets/148530184/f6409f23-83b5-4dde-8f16-75e78930ebb3" height=65%  width=22%>
+</h1>
+
+#
+<div align = "center">
+<video src="https://github.com/RaviNarayanBehera/resume_app/assets/148530184/7f0cd705-3d21-43ec-9b3a-1b629c458a8f">
+</div>
+
